@@ -15,6 +15,7 @@ yarn-error.log
 # Edit at https://www.toptal.com/developers/gitignore?templates=phpstorm,laravel,phpunit,phpcodesniffer,sass,less,windows,linux,macos
 
 ### Laravel ###
+.env
 /vendor/
 node_modules/
 npm-debug.log
