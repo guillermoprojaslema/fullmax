@@ -8,10 +8,9 @@
                         <div class="logo-footer logo-white"><img src="https://autocare.dexignlab.com/xhtml/images/logo.png" alt=""></div>
                         <p><strong>Auto Care</strong> ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore agna aliquam erat . wisi enim ad minim veniam, quis tation. sit amet, consec tetuer.ipsum dolor sit amet, consectetuer.</p>
                         <ul class="dlab-social-icon dez-border">
-                            <li><a class="fab fa-facebook-f" href="https://www.facebook.com/" target="blank"></a></li>
-                            <li><a class="fab fa-twitter" href="https://twitter.com/" target="blank"></a></li>
-                            <li><a class="fab fa-linkedin-in" href="https://www.linkedin.com/" target="blank"></a></li>
-                            <li><a class="fab fa-facebook-f" href="https://www.facebook.com/" target="blank"></a></li>
+                            <li><a class="fa fa-facebook-square" href="https://www.facebook.com/" target="blank"></a></li>
+                            <li><a class="fa fa-instagram" href="https://instagram.com/" target="blank"></a></li>
+                            <li><a class="fa fa-twitter-square" href="https://twitter.com/" target="blank"></a></li>
                         </ul>
                     </div>
                 </div>
