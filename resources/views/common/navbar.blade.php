@@ -6,10 +6,9 @@
                 <div class="dlab-topbar-left"></div>
                 <div class="dlab-topbar-right">
                     <ul class="social-bx list-inline float-end">
-                        <li><a class="fab fa-facebook-f" href="https://www.facebook.com/" target="blank"></a></li>
-                        <li><a class="fab fa-twitter" href="https://twitter.com/" target="blank"></a></li>
-                        <li><a class="fab fa-linkedin-in" href="https://www.linkedin.com/" target="blank"></a></li>
-                        <li><a class="fab fa-google-plus-g" href="https://mail.google.com/" target="blank"></a></li>
+                        <li><a class="fa fa-facebook-square" href="https://www.facebook.com/" target="blank"></a></li>
+                        <li><a class="fa fa-twitter-square" href="https://twitter.com/" target="blank"></a></li>
+                        <li><a class="fa fa-instagram" href="https://www.linkedin.com/" target="blank"></a></li>
                     </ul>
                 </div>
             </div>
