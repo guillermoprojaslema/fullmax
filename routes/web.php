@@ -13,10 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::view('/', 'home')->name('home');
+Route::view('/who-we-are', 'who-we-are')->name('who-we-are');
+Route::view('/our-services', 'our-services')->name('our-services');
 
+Route::get('/contact-us', [ContactController::class, 'create'])->name('contact-us.create');
+Route::post('/contact-us', [ContactController::class, 'store'])->name('contact-us.store');
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
