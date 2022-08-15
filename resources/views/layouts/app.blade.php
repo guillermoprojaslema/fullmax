@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>{{ config('app.name')}} - @yield('title')</title>
+        <title>{{setting('site.title')}} - @yield('title')</title>
         @include('common.headers')
     </head>
     <body id="bg">
