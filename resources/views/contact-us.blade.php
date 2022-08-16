@@ -88,42 +88,47 @@
                             <p>{{__('If you have any questions simply use the following contact details.')}}</p>
                             <ul class="no-margin">
                                 <li class="icon-bx-wraper left m-b30">
-                                    <div class="icon-bx-xs bg-primary"><a href="#" class="icon-cell"><i
-                                                class="ti-location-pin"></i></a></div>
+                                    <div class="icon-bx-xs"><a href="#" class="icon-cell">
+                                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
                                     <div class="icon-content">
                                         <h6 class="text-uppercase m-tb0 dlab-tilte">{{__('Address')}}:</h6>
-                                        <p>Av. Gabriela Pte. 1116, Puente Alto</p>
+                                        <p>{{setting('site.address')}}</p>
                                     </div>
                                 </li>
                                 <li class="icon-bx-wraper left  m-b30">
-                                    <div class="icon-bx-xs bg-primary"><a href="#" class="icon-cell"><i
-                                                class="ti-email"></i></a></div>
+                                    <div class="icon-bx-xs"><a href="mailto:{{setting('site.email')}}"
+                                                               class="icon-cell"><i
+                                                class="fa fa-envelope"></i></a></div>
                                     <div class="icon-content">
                                         <h6 class="text-uppercase m-tb0 dlab-tilte">Email:</h6>
-                                        <p>info@company.com</p>
+                                        <p>{{setting('site.email')}}</p>
                                     </div>
                                 </li>
                                 <li class="icon-bx-wraper left">
-                                    <div class="icon-bx-xs bg-primary"><a href="#" class="icon-cell"><i
-                                                class="ti-mobile"></i></a></div>
+                                    <div class="icon-bx-xs"><a href="tel:{{setting('site.phone')}}" class="icon-cell"><i
+                                                class="fa fa-phone"></i></a></div>
                                     <div class="icon-content">
                                         <h6 class="text-uppercase m-tb0 dlab-tilte">{{__('Telephone')}}</h6>
-                                        <p>+56 9 8554 0696</p>
+                                        <p>{{setting('site.phone')}}</p>
                                     </div>
                                 </li>
                             </ul>
                             <div class="m-t20">
                                 <ul class="dlab-social-icon dez-border dlab-social-icon-lg">
-                                    <li><a href="https://www.facebook.com/" class="fab fa-facebook-f bg-primary"
-                                           target="blank"></a></li>
-                                    <li><a href="https://www.twitter.com/" class="fab fa-twitter bg-primary"
-                                           target="blank"></a></li>
-                                    <li><a href="https://www.linkedin.com/" class="fab fa-linkedin-in bg-primary"
-                                           target="blank"></a></li>
-                                    <li><a href="https://www.pinterest.com/" class="fab fa-pinterest-p bg-primary"
-                                           target="blank"></a></li>
-                                    <li><a href="https://www.mail.google.com/" class="fab fa-google-plus-g bg-primary"
-                                           target="blank"></a></li>
+
+                                    @forelse($socialNetworks as $socialNetwork)
+                                        <li><a href="{{$socialNetwork->url}}" class="fa {{$socialNetwork->icon}} bg-primary"
+                                               target="blank"></a></li>
+                                    @empty
+                                        <li><a href="https://www.facebook.com/" class="fa fa-facebook-f bg-primary"
+                                               target="blank"></a></li>
+                                        <li><a href="https://www.twitter.com/" class="fa fa-twitter bg-primary"
+                                               target="blank"></a></li>
+                                        <li><a href="https://www.linkedin.com/" class="fa fa-linkedin-in bg-primary"
+                                               target="blank"></a></li>
+                                    @endforelse
                                 </ul>
                             </div>
                         </div>
