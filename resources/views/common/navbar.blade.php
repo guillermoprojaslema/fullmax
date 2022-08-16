@@ -6,9 +6,10 @@
                 <div class="dlab-topbar-left"></div>
                 <div class="dlab-topbar-right">
                     <ul class="social-bx list-inline float-end">
-                        <li><a class="fa fa-facebook-square" href="https://www.facebook.com/" target="blank"></a></li>
-                        <li><a class="fa fa-twitter-square" href="https://twitter.com/" target="blank"></a></li>
-                        <li><a class="fa fa-instagram" href="https://www.linkedin.com/" target="blank"></a></li>
+                        @forelse($socialNetworks as $socialNetwork)
+                            <li><a class="fa {{$socialNetwork->icon}}" href="{{$socialNetwork->url}}" target="blank"></a></li>
+                        @empty
+                        @endforelse
                     </ul>
                 </div>
             </div>
@@ -49,7 +50,8 @@
                                 servicios<i class="fas fa-chevron-down"></i></a>
                         </li>
 
-                        <li @if(Request::is('contact-us')) class="active" @endif><a href="{{route('contact-us.create')}}">Contáctanos<i
+                        <li @if(Request::is('contact-us')) class="active" @endif><a
+                                href="{{route('contact-us.create')}}">Contáctanos<i
                                     class="fas fa-chevron-down"></i></a>
                         </li>
                     </ul>
