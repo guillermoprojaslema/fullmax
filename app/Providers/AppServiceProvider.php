@@ -2,6 +2,9 @@
 
 namespace App\Providers;
 
+use App\Models\Service;
+use App\Models\Socialnetwork;
+use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -23,6 +26,12 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        $socialNetworks = Socialnetwork::all();
+        $services       = Service::all();
+
+        View::share([
+            'socialNetworks' => $socialNetworks,
+            'services' => $services,
+        ]);
     }
 }
