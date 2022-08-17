@@ -122,12 +122,6 @@
                                         <li><a href="{{$socialNetwork->url}}" class="fa {{$socialNetwork->icon}} bg-primary"
                                                target="blank"></a></li>
                                     @empty
-                                        <li><a href="https://www.facebook.com/" class="fa fa-facebook-f bg-primary"
-                                               target="blank"></a></li>
-                                        <li><a href="https://www.twitter.com/" class="fa fa-twitter bg-primary"
-                                               target="blank"></a></li>
-                                        <li><a href="https://www.linkedin.com/" class="fa fa-linkedin-in bg-primary"
-                                               target="blank"></a></li>
                                     @endforelse
                                 </ul>
                             </div>
@@ -139,9 +133,7 @@
                     <div class="col-lg-12">
                         <!-- Map part start -->
                         <h2>{{__('Our Location')}}</h2>
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.9175174958527!2d-70.59707558490699!3d-33.58149078073671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662d739277e443f%3A0xf16a3798952992e1!2sAv.%20Gabriela%20Pte.%201116%2C%20Puente%20Alto%2C%208150215%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1659562654540!5m2!1ses!2scl"
-                            style="border:0; width:100%; height:400px;" allowfullscreen=""></iframe>
+                        {!! setting('site.location')  !!}
                         <!-- Map part END -->
                     </div>
                 </div>
