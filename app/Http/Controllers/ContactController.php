@@ -32,7 +32,8 @@ class ContactController extends Controller
     public function store(ContactRequest $request)
     {
 
-        $contactEmail = 'grojaslema@outlook.com'; //TODO: Set this value with Voyager Admin
+        $contactEmail = setting('site.email');
+
         try {
             Mail::to($contactEmail)->send(new Contact($request));
 
