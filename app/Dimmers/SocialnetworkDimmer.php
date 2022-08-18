@@ -42,7 +42,7 @@ class SocialnetworkDimmer extends BaseDimmer
                 'text' => __('voyager::dimmer.rrss_link_text'),
                 'link' => route('voyager.socialnetworks.index'),
             ],
-            'image' => voyager_asset('images/widget-backgrounds/03.jpg'),
+            'image' => asset('images/widget-backgrounds/social_network.jpg'),
         ]));
     }
 
