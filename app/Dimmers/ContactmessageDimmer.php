@@ -42,7 +42,7 @@ class ContactmessageDimmer extends BaseDimmer
                 'text' => __('voyager::dimmer.mensajes_link_text'),
                 'link' => route('voyager.contactmessages.index'),
             ],
-            'image' => voyager_asset('images/widget-backgrounds/03.jpg'),
+            'image' => asset('images/widget-backgrounds/messages.jpg'),
         ]));
     }
 
