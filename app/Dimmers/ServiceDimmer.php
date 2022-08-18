@@ -35,14 +35,14 @@ class ServiceDimmer extends BaseDimmer
         $string = trans_choice('voyager::dimmer.servicios', $count);
 
         return view('voyager::dimmer', array_merge($this->config, [
-            'icon'   => 'voyager-star',
+            'icon'   => 'voyager-star-two',
             'title'  => "{$count} {$string}",
             'text'   => __('voyager::dimmer.servicios_text', ['count' => $count, 'string' => Str::lower($string)]),
             'button' => [
                 'text' => __('voyager::dimmer.servicios_link_text'),
                 'link' => route('voyager.services.index'),
             ],
-            'image' => voyager_asset('images/widget-backgrounds/03.jpg'),
+            'image' => asset('images/widget-backgrounds/service.jpeg'),
         ]));
     }
 
