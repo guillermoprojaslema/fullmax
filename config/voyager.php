@@ -144,9 +144,9 @@ return [
         ],
 
         'widgets' => [
-            'App\\Dimmers\\SocialnetworkDimmer',
-            'App\\Dimmers\\ContactmessageDimmer',
-            'App\\Dimmers\\ServiceDimmer',
+            'App\\Voyager\\Dimmers\\SocialnetworkDimmer',
+            'App\\Voyager\\Dimmers\\ContactmessageDimmer',
+            'App\\Voyager\\Dimmers\\ServiceDimmer',
         ],
 
     ],

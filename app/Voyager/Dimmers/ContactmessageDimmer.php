@@ -6,16 +6,16 @@
  * Time: 22:11
  */
 
-namespace App\Dimmers;
+namespace App\Voyager\Dimmers;
 
 
+use App\Models\Contactmessage;
 use TCG\Voyager\Widgets\BaseDimmer;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Str;
 use TCG\Voyager\Facades\Voyager;
-use App\Models\Service;
 
-class ServiceDimmer extends BaseDimmer
+class ContactmessageDimmer extends BaseDimmer
 {
 
     /**
@@ -31,18 +31,18 @@ class ServiceDimmer extends BaseDimmer
      */
     public function run()
     {
-        $count = Service::count();
-        $string = trans_choice('voyager::dimmer.servicios', $count);
+        $count = Contactmessage::count();
+        $string = trans_choice('voyager::dimmer.mensajes', $count);
 
         return view('voyager::dimmer', array_merge($this->config, [
-            'icon'   => 'voyager-star-two',
+            'icon'   => 'voyager-chat',
             'title'  => "{$count} {$string}",
-            'text'   => __('voyager::dimmer.servicios_text', ['count' => $count, 'string' => Str::lower($string)]),
+            'text'   => __('voyager::dimmer.mensajes_text', ['count' => $count, 'string' => Str::lower($string)]),
             'button' => [
-                'text' => __('voyager::dimmer.servicios_link_text'),
-                'link' => route('voyager.services.index'),
+                'text' => __('voyager::dimmer.mensajes_link_text'),
+                'link' => route('voyager.contactmessages.index'),
             ],
-            'image' => asset('images/widget-backgrounds/service.jpeg'),
+            'image' => asset('images/voyager/widget-backgrounds/messages.jpg'),
         ]));
     }
 
