@@ -40,19 +40,17 @@
                                 src="https://autocare.dexignlab.com/xhtml/images/logo.png" width="193" height="89"
                                 alt=""></a></div>
                     <ul class="nav navbar-nav nav-style">
-                        <li @if(Request::is('/')) class="active" @endif><a href="{{route('home')}}">Inicio<i
-                                    class="fas fa-chevron-down"></i></a>
+                        <li @if(Request::is('/')) class="active" @endif><a href="{{route('home')}}">{{__('Home')}}<i
+                                    class="fa fa-chevron-down"></i></a>
                         </li>
-                        <li @if(Request::is('who-we-are')) class="active" @endif><a href="{{route('who-we-are')}}">Quiénes
-                                somos<i class="fas fa-chevron-down"></i></a>
+                        <li @if(Request::is('who-we-are')) class="active" @endif><a href="{{route('who-we-are')}}">{{__('Who we are')}}<i class="fa fa-chevron-down"></i></a>
                         </li>
-                        <li @if(Request::is('our-services')) class="active" @endif><a href="{{route('our-services')}}">Nuestros
-                                servicios<i class="fas fa-chevron-down"></i></a>
+                        <li @if(Request::is('our-services')) class="active" @endif><a href="{{route('our-services')}}">{{__('Our Services')}}<i class="fa fa-chevron-down"></i></a>
                         </li>
 
                         <li @if(Request::is('contact-us')) class="active" @endif><a
-                                href="{{route('contact-us.create')}}">Contáctanos<i
-                                    class="fas fa-chevron-down"></i></a>
+                                href="{{route('contact-us.create')}}">{{__('Contact us')}}<i
+                                    class="fa fa-chevron-down"></i></a>
                         </li>
                     </ul>
                 </div>
