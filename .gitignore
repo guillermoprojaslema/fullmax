@@ -265,3 +265,4 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/phpstorm,laravel,phpunit,phpcodesniffer,sass,less,windows,linux,macos
 .env
+.env
