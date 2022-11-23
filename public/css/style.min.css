@@ -144,7 +144,7 @@ a:focus {
 }
 a:active,
 a:hover {
-    color: #333333;
+    color: var(--primary-hover);
 }
 p a {
     color: #333333;
