@@ -38,7 +38,7 @@
                 <!-- main nav -->
                 <div class="header-nav navbar-collapse collapse justify-content-end" id="navbarNavDropdown">
                     <div class="logo-header logo-white mostion"><a href="{{route('home')}}"><img
-                                src="https://autocare.dexignlab.com/xhtml/images/logo.png" width="193" height="89"
+                                src="{{url('/images/logo3.png')}}" width="193" height="89"
                                 alt=""></a></div>
                     <ul class="nav navbar-nav nav-style">
                         <li @if(Request::is('/')) class="active" @endif><a href="{{route('home')}}">{{__('Home')}}<i
