@@ -26,7 +26,7 @@
                         </div>
                         <ul>
                             @forelse($services as $service)
-                                <li>{{$service->name}}</li>
+                                <li> <i class="fa fa-arrow-right" aria-hidden="true"></i> {{$service->name}}</li>
                             @empty
                             @endforelse
                         </ul>
