@@ -203,10 +203,10 @@ table {
     background-color:var(--primary)!important;
 }
 .bg-secondry {
-    background-color:var(--secondry)!important;
+    background-color:var(--secondary)!important;
 }
 .text-secondry {
-    color: var(--secondry)!important;
+    color: var(--secondary)!important;
 }
 .overflow-hide {
     overflow: hidden;
@@ -2530,7 +2530,7 @@ blockquote:before {
 }
 .header-curve .logo-header:before,
 .header-curve .logo-header:after {
-    background-color: #22252A;
+    background-color: var(--secondary);
     content: "";
     position: absolute;
     bottom: 0;
@@ -3273,12 +3273,12 @@ blockquote:before {
 }
 [class*="bg-"] .header-nav .nav > li.active > a,
 [class*="bg-"] .header-nav .nav > li.current-menu-item > a {
-    background-color: #ffffff;
+    background-color: var(--primary);
     color: #000000;
 }
 [class*="bg-"] .header-nav .nav > li > a:hover,
 [class*="bg-"] .header-nav .nav > li:hover > a {
-    background-color: #ffffff;
+    background-color: var(--primary);;
     color: #000000;
 }
 
