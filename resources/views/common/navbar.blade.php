@@ -7,7 +7,8 @@
                 <div class="dlab-topbar-right">
                     <ul class="social-bx list-inline float-end">
                         @forelse($socialNetworks as $socialNetwork)
-                            <li><a class="fa {{$socialNetwork->icon}}" href="{{$socialNetwork->url}}" target="blank"></a></li>
+                            <li><a class="fa {{$socialNetwork->icon}}" href="{{$socialNetwork->url}}"
+                                   target="blank"></a></li>
                         @empty
                         @endforelse
                     </ul>
@@ -22,7 +23,7 @@
             <div class="container clearfix">
                 <!-- website logo -->
                 <div class="logo-header logo-white mostion"><a href="{{route('home')}}"><img
-                            src="https://autocare.dexignlab.com/xhtml/images/logo.png" width="193" height="89"
+                            src="{{url('/images/logo4.png')}}" width="193" height="89"
                             alt=""></a></div>
                 <!-- nav toggle button -->
                 <button class="navbar-toggler collapsed navicon justify-content-end" type="button"
@@ -43,9 +44,13 @@
                         <li @if(Request::is('/')) class="active" @endif><a href="{{route('home')}}">{{__('Home')}}<i
                                     class="fa fa-chevron-down"></i></a>
                         </li>
-                        <li @if(Request::is('who-we-are')) class="active" @endif><a href="{{route('who-we-are')}}">{{__('Who we are')}}<i class="fa fa-chevron-down"></i></a>
+                        <li @if(Request::is('who-we-are')) class="active" @endif><a
+                                href="{{route('who-we-are')}}">{{__('Who we are')}}<i
+                                    class="fa fa-chevron-down"></i></a>
                         </li>
-                        <li @if(Request::is('our-services')) class="active" @endif><a href="{{route('our-services')}}">{{__('Our Services')}}<i class="fa fa-chevron-down"></i></a>
+                        <li @if(Request::is('our-services')) class="active" @endif><a
+                                href="{{route('our-services')}}">{{__('Our Services')}}<i
+                                    class="fa fa-chevron-down"></i></a>
                         </li>
 
                         <li @if(Request::is('contact-us')) class="active" @endif><a

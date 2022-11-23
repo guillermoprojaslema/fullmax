@@ -6,7 +6,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6 footer-col-4">
                     <div class="widget widget_about">
                         <div class="logo-footer logo-white"><img
-                                src="https://autocare.dexignlab.com/xhtml/images/logo.png" alt=""></div>
+                                src="{{url('/images/logo4.png')}}"alt=""></div>
                         <p><strong>{{setting('site.title')}}</strong> {{setting('site.description')}}</p>
                         <ul class="dlab-social-icon dez-border">
                             @forelse($socialNetworks as $socialNetwork)
@@ -39,11 +39,11 @@
                             <div class="dlab-separator bg-white style-skew"></div>
                         </div>
                         <ul>
-                            <li><i class="fa fa-map-marker"></i><strong>{{__('Address')}}</strong> {{setting('site.address') }}
+                            <li><a href="https://goo.gl/maps/p4fJmrBcvxzx9RFX6"><i class="fa fa-map-marker"></i><strong>{{__('Address')}}</strong> {{setting('site.address') }}</a>
                             </li>
-                            <li><i class="fa fa-phone"></i><strong>{{__('Telephone')}}</strong>{{setting('site.phone')}}
+                            <li><a href="tel{{setting('site.phone')}}"><i class="fa fa-phone"></i><strong>{{__('Telephone')}}</strong>{{setting('site.phone')}}</a>
                             </li>
-                            <li><i class="fa fa-envelope"></i><strong>email</strong>{{setting('site.email')}}</li>
+                            <li><a href="mailto:{{setting('site.email')}}"><i class="fa fa-envelope"></i><strong>email</strong>{{setting('site.email')}}</li></a>
                         </ul>
                     </div>
                 </div>
