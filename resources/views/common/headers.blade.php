@@ -12,8 +12,8 @@
 
 
 <!-- FAVICONS ICON -->
-<link rel="icon" href="https://autocare.dexignlab.com/xhtml/images/favicon.ico" type="image/x-icon"/>
-<link rel="shortcut icon" type="image/x-icon" href="https://autocare.dexignlab.com/xhtml/images/favicon.png"/>
+<link rel="icon" href="{{url('/images/FAVICON-16.png')}}" type="image/x-icon"/>
+<link rel="shortcut icon" type="image/x-icon" href="{{url('/images/FAVICON-16.png')}}"/>
 
 
 <!-- MOBILE SPECIFIC -->
