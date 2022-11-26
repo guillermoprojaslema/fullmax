@@ -4,12 +4,15 @@
 
     <div class="page-content">
 
-        <div class="dlab-bnr-inr overlay-black-middle" style="background-image:url('https://autocare.dexignlab.com/xhtml/images/main-slider/slide1.jpg');">
+        <div class="dlab-bnr-inr overlay-black-middle"
+             style="background-image:url('https://autocare.dexignlab.com/xhtml/images/main-slider/slide1.jpg');">
             <div class="container">
                 <div class="dlab-bnr-inr-entry">
                     <h1 class="text-white ">All Services</h1>
                     <div class="dlab-separator bg-primary"></div>
-                    <p class="text-white max-w800">There are many variations of passages of Lorem Ipsum typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+                    <p class="text-white max-w800">There are many variations of passages of Lorem Ipsum typesetting
+                        industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                        unknown printer took a galley</p>
                 </div>
             </div>
         </div>
@@ -35,18 +38,18 @@
                         <div class="row">
                             <div class="col-md-4 col-lg-4 col-sm-4 m-b15">
                                 <div class="icon-bx-wraper bx-style-1 p-tb15 p-lr10 center">
-                                    <div class="icon-bx-sm radius bg-primary m-b5"><a href="#" class="icon-cell"><i
-                                                class="ti-user"></i></a></div>
+                                    <div class="m-b5"><a href="#">
+                                            <i class="fa fa-user fa-5x"></i></a></div>
                                     <div class="icon-content">
-                                        <h2 class="text-primary m-t20 m-b10"><span class="counter">1800</span>+</h2>
-                                        <p>Engineers &amp; Workers</p>
+                                        <h2 class="text-primary m-t20 m-b10"><span class="counter">120</span>+</h2>
+                                        <p>Engineers & Workers</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-4 col-lg-4 col-sm-4 m-b15">
                                 <div class="icon-bx-wraper bx-style-1 p-tb15 p-lr10 center">
-                                    <div class="icon-bx-sm radius bg-primary m-b5"><a href="#" class="icon-cell"><i
-                                                class="ti-home"></i></a></div>
+                                    <div class="m-b5"><a href="#">
+                                            <i class="fa fa-industry fa-5x"></i></a></div>
                                     <div class="icon-content">
                                         <h2 class="text-primary m-t20 m-b10"><span class="counter">620</span>+</h2>
                                         <p>Factory In Worldwide</p>
@@ -55,8 +58,8 @@
                             </div>
                             <div class="col-md-4 col-lg-4 col-sm-4 m-b15">
                                 <div class="icon-bx-wraper bx-style-1 p-tb15 p-lr10 center">
-                                    <div class="icon-bx-sm radius bg-primary m-b5"><a href="#" class="icon-cell"><i
-                                                class="ti-harddrives"></i></a></div>
+                                    <div class="m-b5"><a href="#">
+                                            <i class="fa fa-clipboard fa-5x"></i></a></div>
                                     <div class="icon-content">
                                         <h2 class="text-primary m-t20 m-b10"><span class="counter">1527</span>+</h2>
                                         <p>Projects Completed</p>

@@ -1357,8 +1357,8 @@
     text-align:center;
 }
 .contact-style-1 .dlab-social-icon-lg li a:hover{
-    background:#fff!important;
-    color:#000;
+    background:var(--primary-hover)!important;
+    color:#FFF;
     border:1px solid #eee;
 }
 .contact-style-1  .form-group {

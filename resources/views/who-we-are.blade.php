@@ -22,13 +22,13 @@
                                     </a>
                                     <div class="dlab-info-has skew-has  bg-primary">
                                         <ul class="dlab-social-icon dez-border">
-                                            <li><a class="fab fa-facebook-f" href="https://www.facebook.com/"
+                                            <li><a class="fa fa-facebook-f" href="https://www.facebook.com/"
                                                    target="blank"></a></li>
-                                            <li><a class="fab fa-twitter" href="https://www.twitter.com/"
+                                            <li><a class="fa fa-twitter" href="https://www.twitter.com/"
                                                    target="blank"></a></li>
-                                            <li><a class="fab fa-linkedin-in" href="https://www.linkedin.com/"
+                                            <li><a class="fa fa-linkedin" href="https://www.linkedin.com/"
                                                    target="blank"></a></li>
-                                            <li><a class="fab fa-facebook-f" href="https://www.facebook.com/"
+                                            <li><a class="fa fa-facebook-f" href="https://www.facebook.com/"
                                                    target="blank"></a></li>
                                         </ul>
                                     </div>
@@ -46,13 +46,13 @@
                                     </a>
                                     <div class="dlab-info-has skew-has bg-primary">
                                         <ul class="dlab-social-icon dez-border">
-                                            <li><a class="fab fa-facebook-f" href="https://www.facebook.com/"
+                                            <li><a class="fa fa-facebook-f" href="https://www.facebook.com/"
                                                    target="blank"></a></li>
-                                            <li><a class="fab fa-twitter" href="https://www.twitter.com/"
+                                            <li><a class="fa fa-twitter" href="https://www.twitter.com/"
                                                    target="blank"></a></li>
-                                            <li><a class="fab fa-linkedin-in" href="https://www.linkedin.com/"
+                                            <li><a class="fa fa-linkedin" href="https://www.linkedin.com/"
                                                    target="blank"></a></li>
-                                            <li><a class="fab fa-facebook-f" href="https://www.facebook.com/"
+                                            <li><a class="fa fa-facebook-f" href="https://www.facebook.com/"
                                                    target="blank"></a></li>
                                         </ul>
                                     </div>
@@ -70,13 +70,13 @@
                                     </a>
                                     <div class="dlab-info-has skew-has bg-primary">
                                         <ul class="dlab-social-icon dez-border">
-                                            <li><a class="fab fa-facebook-f" href="https://www.facebook.com/"
+                                            <li><a class="fa fa-facebook-f" href="https://www.facebook.com/"
                                                    target="blank"></a></li>
-                                            <li><a class="fab fa-twitter" href="https://www.twitter.com/"
+                                            <li><a class="fa fa-twitter" href="https://www.twitter.com/"
                                                    target="blank"></a></li>
-                                            <li><a class="fab fa-linkedin-in" href="https://www.linkedin.com/"
+                                            <li><a class="fa fa-linkedin" href="https://www.linkedin.com/"
                                                    target="blank"></a></li>
-                                            <li><a class="fab fa-facebook-f" href="https://www.facebook.com/"
+                                            <li><a class="fa fa-facebook-f" href="https://www.facebook.com/"
                                                    target="blank"></a></li>
                                         </ul>
                                     </div>
@@ -94,13 +94,13 @@
                                     </a>
                                     <div class="dlab-info-has skew-has bg-primary">
                                         <ul class="dlab-social-icon dez-border">
-                                            <li><a class="fab fa-facebook-f" href="https://www.facebook.com/"
+                                            <li><a class="fa fa-facebook-f" href="https://www.facebook.com/"
                                                    target="blank"></a></li>
-                                            <li><a class="fab fa-twitter" href="https://www.twitter.com/"
+                                            <li><a class="fa fa-twitter" href="https://www.twitter.com/"
                                                    target="blank"></a></li>
-                                            <li><a class="fab fa-linkedin-in" href="https://www.linkedin.com/"
+                                            <li><a class="fa fa-linkedin" href="https://www.linkedin.com/"
                                                    target="blank"></a></li>
-                                            <li><a class="fab fa-facebook-f" href="https://www.facebook.com/"
+                                            <li><a class="fa fa-facebook-f" href="https://www.facebook.com/"
                                                    target="blank"></a></li>
                                         </ul>
                                     </div>

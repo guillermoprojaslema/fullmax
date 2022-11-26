@@ -6,14 +6,15 @@
 <meta name="robots" content=""/>
 <meta name="description" content="{{setting('site.description')}}"/>
 <meta property="og:title" content="{{setting('site.title')}}"/>
-<meta property="og:description" content="{{setting('site.description')}}"/>
+<meta property="og:description" content="{{setting('site.description')}}"
+<meta name="theme-color" content="#E6910A">
 <meta property="og:image" content="http://autocare.dexignlab.com/xhtml/social-image.png"/>
 <meta name="format-detection" content="telephone=no">
 
 
 <!-- FAVICONS ICON -->
-<link rel="icon" href="https://autocare.dexignlab.com/xhtml/images/favicon.ico" type="image/x-icon"/>
-<link rel="shortcut icon" type="image/x-icon" href="https://autocare.dexignlab.com/xhtml/images/favicon.png"/>
+<link rel="icon" type="image/x-icon" href="{{url('/images/favicon/FAVICON-16.ico')}}">
+<link rel="shortcut icon" type="image/x-icon" href="{{url('/images/favicon/FAVICON-16.png')}}"/>
 
 
 <!-- MOBILE SPECIFIC -->

@@ -1,17 +1,18 @@
 /*=====================
 	Premery bg color
 =====================*/
-:root{
-    --primary: #EE3131;
-    --primary-hover: #fe4141;
-    --secondry: #2d3239;
-    --rgba-primary-1: rgba(238, 49, 49, 0.1);
-    --rgba-primary-2: rgba(238, 49, 49, 0.2);
-    --rgba-primary-3: rgba(238, 49, 49, 0.3);
-    --rgba-primary-4: rgba(238, 49, 49, 0.4);
-    --rgba-primary-5: rgba(238, 49, 49, 0.5);
-    --rgba-primary-6: rgba(238, 49, 49, 0.6);
-    --rgba-primary-7: rgba(238, 49, 49, 0.7);
-    --rgba-primary-8: rgba(238, 49, 49, 0.8);
-    --rgba-primary-9: rgba(238, 49, 49, 0.9);
+:root {
+    --primary: rgba(230, 145, 10, 1);
+    --primary-hover: rgba(255, 155, 0, 1);
+    --secondary: rgba(87, 87, 86, 1);
+    --secondary-hover: rgba(48, 51, 56, 1);
+    --rgba-primary-1: rgba(230, 145, 10, 0.1);
+    --rgba-primary-2: rgba(230, 145, 10, 0.2);
+    --rgba-primary-3: rgba(230, 145, 10, 0.3);
+    --rgba-primary-4: rgba(230, 145, 10, 0.4);
+    --rgba-primary-5: rgba(230, 145, 10, 0.5);
+    --rgba-primary-6: rgba(230, 145, 10, 0.6);
+    --rgba-primary-7: rgba(230, 145, 10, 0.7);
+    --rgba-primary-8: rgba(230, 145, 10, 0.8);
+    --rgba-primary-9: rgba(230, 145, 10, 0.9);
 }
