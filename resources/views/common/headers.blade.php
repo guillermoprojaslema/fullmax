@@ -14,7 +14,7 @@
 
 <!-- FAVICONS ICON -->
 <link rel="icon" type="image/x-icon" href="{{url('/images/favicon/FAVICON-16.ico')}}">
-<link rel="shortcut icon" type="image/x-icon" href="{{url('/images/favicon/FAVICON-.png')}}"/>
+<link rel="shortcut icon" type="image/x-icon" href="{{url('/images/favicon/FAVICON-16.png')}}"/>
 
 
 <!-- MOBILE SPECIFIC -->
