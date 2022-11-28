@@ -19,7 +19,7 @@
                             <div class="icon-bx-wraper center m-b40">
                                 <div class="icon-bx-sm m-b20">
                                 <span class="icon-cell">
-                                    <i class="fa {{$service->icon}}" aria-hidden="true"></i>
+                                    <a href=""><i class="fa {{$service->icon}}" aria-hidden="true"></i></a>
                                 </span>
                                 </div>
                                 <div class="icon-content">
