@@ -32,14 +32,14 @@ class ContactmessageDimmer extends BaseDimmer
     public function run()
     {
         $count = Contactmessage::count();
-        $string = trans_choice('voyager::dimmer.mensajes', $count);
+        $string = trans_choice('dimmer.mensajes', $count);
 
         return view('voyager::dimmer', array_merge($this->config, [
             'icon'   => 'voyager-chat',
             'title'  => "{$count} {$string}",
-            'text'   => __('voyager::dimmer.mensajes_text', ['count' => $count, 'string' => Str::lower($string)]),
+            'text'   => __('dimmer.mensajes_text', ['count' => $count, 'string' => Str::lower($string)]),
             'button' => [
-                'text' => __('voyager::dimmer.mensajes_link_text'),
+                'text' => __('dimmer.mensajes_link_text'),
                 'link' => route('voyager.contactmessages.index'),
             ],
             'image' => asset('images/voyager/widget-backgrounds/messages.jpg'),
