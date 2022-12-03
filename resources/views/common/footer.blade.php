@@ -41,7 +41,7 @@
                         <ul>
                             <li><a href="https://goo.gl/maps/p4fJmrBcvxzx9RFX6"><i class="fa fa-map-marker"></i><strong>{{__('Address')}}</strong> {{setting('site.address') }}</a>
                             </li>
-                            <li><a href="tel{{setting('site.phone')}}"><i class="fa fa-phone"></i><strong>{{__('Telephone')}}</strong>{{setting('site.phone')}}</a>
+                            <li><a href="tel{{setting('site.phone')}}"><i class="fas fa-phone"></i><strong>{{__('Telephone')}}</strong>{{setting('site.phone')}}</a>
                             </li>
                             <li><a href="mailto:{{setting('site.email')}}"><i class="fa fa-envelope"></i><strong>email</strong>{{setting('site.email')}}</li></a>
                         </ul>

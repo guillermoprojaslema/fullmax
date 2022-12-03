@@ -32,14 +32,15 @@ class ServiceDimmer extends BaseDimmer
     public function run()
     {
         $count = Service::count();
-        $string = trans_choice('voyager::dimmer.servicios', $count);
+        $string = trans_choice('dimmer.servicios', $count);
+
 
         return view('voyager::dimmer', array_merge($this->config, [
             'icon'   => 'voyager-star-two',
             'title'  => "{$count} {$string}",
-            'text'   => __('voyager::dimmer.servicios_text', ['count' => $count, 'string' => Str::lower($string)]),
+            'text'   => __('dimmer.servicios_text', ['count' => $count, 'string' => Str::lower($string)]),
             'button' => [
-                'text' => __('voyager::dimmer.servicios_link_text'),
+                'text' => __('dimmer.servicios_link_text'),
                 'link' => route('voyager.services.index'),
             ],
             'image' => asset('images/voyager/widget-backgrounds/service.jpeg'),

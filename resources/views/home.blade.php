@@ -38,8 +38,12 @@
                         <div class="row">
                             <div class="col-md-4 col-lg-4 col-sm-4 m-b15">
                                 <div class="icon-bx-wraper bx-style-1 p-tb15 p-lr10 center">
-                                    <div class="m-b5"><a href="#">
-                                            <i class="fa fa-user fa-5x"></i></a></div>
+                                    <div class="m-b5">
+                                        <a href="#">
+                                            {{--<i class="fa-solid fa-user fa-5x"></i>--}}
+                                            <i class="fa-regular fa-user fa-5x"></i>
+                                        </a>
+                                    </div>
                                     <div class="icon-content">
                                         <h2 class="text-primary m-t20 m-b10"><span class="counter">120</span>+</h2>
                                         <p>Engineers & Workers</p>
@@ -59,7 +63,7 @@
                             <div class="col-md-4 col-lg-4 col-sm-4 m-b15">
                                 <div class="icon-bx-wraper bx-style-1 p-tb15 p-lr10 center">
                                     <div class="m-b5"><a href="#">
-                                            <i class="fa fa-clipboard fa-5x"></i></a></div>
+                                            <i class="fa-regular fa-paste fa-5x"></i></a></div>
                                     <div class="icon-content">
                                         <h2 class="text-primary m-t20 m-b10"><span class="counter">1527</span>+</h2>
                                         <p>Projects Completed</p>
@@ -75,7 +79,7 @@
                             1500.</p>
                     </div>
                     <div class="col-lg-5 about-img">
-                        <img src="https://autocare.dexignlab.com/xhtml/images/img2.jpg" alt="">
+                        <img src="{{url('/images/home/img2.jpg')}}" alt="">
                     </div>
                 </div>
             </div>

@@ -32,14 +32,14 @@ class SocialnetworkDimmer extends BaseDimmer
     public function run()
     {
         $count = Socialnetwork::count();
-        $string = trans_choice('voyager::dimmer.rrss', $count);
+        $string = trans_choice('dimmer.rrss', $count);
 
         return view('voyager::dimmer', array_merge($this->config, [
             'icon'   => 'voyager-bubble-hear',
             'title'  => "{$count} {$string}",
-            'text'   => __('voyager::dimmer.rrss_text', ['count' => $count, 'string' => Str::lower($string)]),
+            'text'   => __('dimmer.rrss_text', ['count' => $count, 'string' => Str::lower($string)]),
             'button' => [
-                'text' => __('voyager::dimmer.rrss_link_text'),
+                'text' => __('dimmer.rrss_link_text'),
                 'link' => route('voyager.socialnetworks.index'),
             ],
             'image' => asset('images/voyager/widget-backgrounds/social_network.jpg'),

@@ -6,7 +6,7 @@
 <meta name="robots" content=""/>
 <meta name="description" content="{{setting('site.description')}}"/>
 <meta property="og:title" content="{{setting('site.title')}}"/>
-<meta property="og:description" content="{{setting('site.description')}}"
+<meta property="og:description" content="{{setting('site.description')}}"/>
 <meta name="theme-color" content="#E6910A">
 <meta property="og:image" content="http://autocare.dexignlab.com/xhtml/social-image.png"/>
 <meta name="format-detection" content="telephone=no">
@@ -40,6 +40,9 @@
 <link rel="stylesheet" type="text/css" href="{{asset('css/style.min.css')}}">
 <link rel="stylesheet" type="text/css" href="{{asset('css/templete.min.css')}}">
 <link class="skin" rel="stylesheet" type="text/css" href="{{asset('css/skin-1.css')}}">
+<link class="skin" rel="stylesheet" type="text/css" href="{{asset('css/themify-icons.css')}}">
+
 
 <!-- Font Awesome -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+{{--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">--}}
+<script src="https://kit.fontawesome.com/1763ed41f3.js" crossorigin="anonymous"></script>
