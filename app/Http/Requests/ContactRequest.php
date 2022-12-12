@@ -24,11 +24,12 @@ class ContactRequest extends FormRequest
     public function rules()
     {
         return [
-            'name'    => 'required|string|min:2|max:255',
-            'email'   => 'required|email',
-            'phone'   => 'required|min:9|max:255',
-            'subject' => 'required|min:3|max:255',
-            'message' => 'required|string|min:15|max:255',
+            'name'               => 'required|string|min:2|max:255',
+            'email'              => 'required|email',
+            'phone'              => 'required|min:9|max:255',
+            'subject'            => 'required|min:3|max:255',
+            'message'            => 'required|string|min:15|max:255',
+            recaptchaFieldName() => recaptchaRuleName(),
         ];
     }
 }

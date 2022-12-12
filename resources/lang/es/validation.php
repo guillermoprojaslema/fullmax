@@ -115,6 +115,7 @@ return [
     'required_with_all' => 'El campo :attribute es requerido cuando :values está presente.',
     'required_without' => 'El campo :attribute es requerido cuando :values no está presente.',
     'required_without_all' => 'El campo :attribute es requerido cuando ningún :values está presente.',
+    'recaptcha' => 'Por favor, valida que no eres un robot',
     'same' => 'El campo :attribute y :other debe coincidir.',
     'size' => [
         'numeric' => 'El campo :attribute debe ser :size.',

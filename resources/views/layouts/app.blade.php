@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>{{setting('site.title')}} - @yield('title')</title>
+        <title>{{setting('site.title')}} - {{setting('site.description')}}</title>
         @include('common.headers')
     </head>
     <body id="bg">
