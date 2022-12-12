@@ -72,11 +72,6 @@
                                     {{--</div>--}}
                                     {{--</div>--}}
                                     {{--</div>--}}
-
-                                    <div class="col-lg-12">
-                                        {!! htmlFormSnippet() !!}
-                                    </div>
-
                                     <div class="col-lg-12">
                                         <button name="submit" type="submit" value="Submit" class="site-button ">
                                             <span>{{__('Submit')}}</span></button>
@@ -124,8 +119,7 @@
                                 <ul class="dlab-social-icon dez-border dlab-social-icon-lg">
 
                                     @forelse($socialNetworks as $socialNetwork)
-                                        <li><a href="{{$socialNetwork->url}}"
-                                               class="fa {{$socialNetwork->icon}} bg-primary"
+                                        <li><a href="{{$socialNetwork->url}}" class="fa {{$socialNetwork->icon}} bg-primary"
                                                target="blank"></a></li>
                                     @empty
                                     @endforelse
@@ -139,8 +133,8 @@
                     <div class="col-lg-12">
                         <!-- Map part start -->
                         <h2>{{__('Our Location')}}</h2>
-                    {!! setting('site.location')  !!}
-                    <!-- Map part END -->
+                        {!! setting('site.location')  !!}
+                        <!-- Map part END -->
                     </div>
                 </div>
             </div>

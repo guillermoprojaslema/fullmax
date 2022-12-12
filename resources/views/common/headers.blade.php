@@ -46,5 +46,3 @@
 <!-- Font Awesome -->
 {{--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">--}}
 <script src="https://kit.fontawesome.com/1763ed41f3.js" crossorigin="anonymous"></script>
-
-{!! htmlScriptTagJsApi() !!}
